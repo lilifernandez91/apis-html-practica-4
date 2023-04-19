@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: rgb(12, 71, 71);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); 
+}
+
+.input-container {
+   margin-bottom: 20px;
+   border: 1px solid rgb(118, 194, 109);
+   border-radius: 3px;
+   height: 40px;
+}
+
+.input-file {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.video {
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: rgb(118, 194, 109);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.button:active {
+    transform: scale(1.5);
+}
+
